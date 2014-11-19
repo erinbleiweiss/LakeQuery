@@ -1,0 +1,96 @@
+body{
+	background-color: #505150;
+}
+
+#header {
+	border: 0px; 
+	margin: 0;
+	}
+
+#headertop { 
+	height: 150px; 
+	background: #FFFFFF;
+	}
+
+#headerinner{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo{
+  position: relative;
+  top: 0px;
+	z-index: 2;
+	width: 300px;
+}
+
+#navigation{
+	position: relative;
+	margin: 0 auto;
+	top: -50px;
+	padding-right: 10px;
+	width: 960px;
+	text-align: right;
+	font-family: "Gotham-Book";
+	color: #3952A3;
+	font-size: 20px;
+	word-spacing: 30px;
+}
+
+#navigation a{
+	text-decoration: none;
+	color: #3952A3;
+}
+
+#navigation a:hover{
+	text-decoration: underline;
+}
+
+
+#bluestripe {
+  position: relative;
+	height:20px; 
+	margin: 0px; 
+	background:#3952A3;
+	-webkit-box-shadow: -1px 11px 33px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 11px 33px -6px rgba(0,0,0,0.75);
+	box-shadow: -1px 11px 33px -6px rgba(0,0,0,0.75);
+	z-index: 1;
+	}		
+
+#wrapper {
+	margin: 0;
+	z-index: 0;
+	}
+
+#main { 
+	width: 960px;
+	margin: 0 auto;
+	text-align: left; 
+	border: 0px; 
+	background: #FFFFFF;
+	height: 600px;
+	z-index: 0s;
+	}
+	
+#delimiter { 
+	clear: both; 
+	}
+	
+#footer { 
+	background: #1F1F1F;
+	margin-bottom:-8px;
+	height: 100px;
+	}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('./fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),  
+  		 url('./fonts/Gotham-Book.otf')  format('opentype'),
+	     url('./fonts/Gotham-Book.woff') format('woff'), 
+	     url('./fonts/Gotham-Book.ttf')  format('truetype'), 
+	     url('./fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
