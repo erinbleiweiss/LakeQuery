@@ -83,6 +83,166 @@ body{
 	height: 100px;
 	}
 
+html {
+    background-image: url("heartsbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#all {
+    width: 90%;
+    background-color: white;
+    border: 1px solid black;
+}
+#all h1 {
+    font-family: 'Lobster', cursive;
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 2px;
+}
+
+#all h2 {
+    font-family: 'Rokkitt', serif;
+    color:  white;
+    font-size: 38px;
+    background: #3952A3;
+    text-align: left;
+    padding: 2px;
+    padding-left: 10px;
+    border-bottom: 1px solid red;
+}
+
+#all h3 {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    background: red;
+    text-align: center;
+    border-bottom: 1px solid red;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+#all p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-indent: 10%;
+}
+
+#all h4 {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    background: #e56b92;
+    text-align: center;
+    border-bottom: 1px solid red;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+#all ul {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    list-style-type: square;
+}
+#all ol {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+#left {
+    box-sizing:border-box;
+    float: left;
+    width: 41%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 6%;
+    margin-right: 3%;
+    border: 1px solid blue;
+}
+#middle {
+    box-sizing:border-box;
+    float: left;
+    width: 41%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 3%;
+    margin-right: 6%;
+    border: 1px solid blue;
+}
+
+#right {
+    box-sizing:border-box;
+    float: left;
+    width: 41%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 1px solid blue;
+}
+#all p {
+    text-align: left;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+#left img {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid red;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+#middle img {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid red;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+#right img {
+    padding: 5px;
+    border: 1px solid red;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+#below
+{
+    box-sizing:border-box;
+    clear: both;
+    margin: 0;
+    color: #333;
+    background-color: white;
+    border-top: 1px solid gray;
+    border: 1px solid black;
+}
+
+#below img {
+    padding: 5px;
+    border: 1px solid red;
+    float: left;
+    width: 20%;
+    margin: 2%;
+}
+
+#floatingrighttext {
+    float: right;
+    width: 70%;
+}
+
+#footer
+{
+    box-sizing:border-box;
+    clear: both;
+    margin: 0;
+    color: #333;
+    background-color: white;
+    border-top: 1px solid gray;
+    border: 1px solid black;
+}
+
+
 @font-face {
   font-family: 'Gotham-Book';
   src: url('./fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),  
