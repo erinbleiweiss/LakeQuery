@@ -200,6 +200,15 @@ html {
     margin-left: 10%;
     margin-right: 10%; 
 }
+
+#contact_content {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid red;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
 #right img {
     padding: 5px;
     border: 1px solid red;
@@ -253,4 +262,3 @@ html {
   font-weight: normal;
   font-style: normal;
 }
-
